@@ -61,6 +61,7 @@ p.more {
 aside {
   background: url(images/scallop.png) repeat-y left top;
   background-color: #F6F3ED;
+  margin-left: 150px;
 }
 /* misc styles */
 footer {
@@ -109,4 +110,23 @@ main>h3{
   top: 4em;
   left: 5em;
 
+}
+nav ul li a{
+  text-decoration: none;
+  border-bottom: dotted 2px;
+  padding: 3px;
+  font-weight: bold;
+}
+footer{
+  padding: 5px;
+  font-weight: bold;
+}
+header p{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.more a{
+  border-bottom: dotted 2px;
+  text-decoration: none;
+  font-weight: 800;
 }
